@@ -6,8 +6,7 @@ public class Account {
 	private double accountBalance;
 	private int accountNumber;
 	public char initialDeposit;
-	
-	private double accountWithdraw;
+		
 
 	public Account() {
 	}
