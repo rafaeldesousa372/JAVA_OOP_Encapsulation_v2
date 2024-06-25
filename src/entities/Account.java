@@ -5,26 +5,20 @@ public class Account {
 	private String accountHolder;
 	private double accountBalance;
 	private int accountNumber;
-	public char initialDeposit;
-	
-	private double accountWithdraw;
-
+			
 	public Account() {
 	}
 	
-		public Account(String accountHolder, int accountNumber) {
-		super();
+	public Account(String accountHolder, int accountNumber) {
 		this.accountHolder = accountHolder;
 		this.accountNumber = accountNumber;
 	}
 
 	public Account(String accountHolder, double accountBalance, int accountNumber) {
-		super();
 		this.accountHolder = accountHolder;
 		this.accountBalance = accountBalance;
 		this.accountNumber = accountNumber;
 	}
-
 
 
 	public String getAccountHolder() {
